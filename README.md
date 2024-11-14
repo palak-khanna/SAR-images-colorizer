@@ -28,19 +28,7 @@ This project focuses on the colorization and analysis of Synthetic Aperture Rada
 ## Dataset Structure
 Organize your dataset with the following directory structure:
 
-data/
-├── agriculture/
-│   ├── s1/  # Contains Sentinel-1 SAR images
-│   └── s2/  # Contains Sentinel-2 images
-├── barren/
-│   ├── s1/
-│   └── s2/
-├── grassland/
-│   ├── s1/
-│   └── s2/
-└── urban/
-    ├── s1/
-    └── s2/
+data/urban/s1 or s2/
 
 Each folder should contain subdirectories for Sentinel-1 (SAR images) and Sentinel-2 images.
 
